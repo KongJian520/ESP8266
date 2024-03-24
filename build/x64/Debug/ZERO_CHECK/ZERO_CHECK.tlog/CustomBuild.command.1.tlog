@@ -1,0 +1,10 @@
+^C:\USERS\12933\CLIONPROJECTS\ESP8266\BUILD\CMAKEFILES\DC50D44AD99ED34AA87499EBF6F4B588\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/12933/CLionProjects/ESP8266 -BC:/Users/12933/CLionProjects/ESP8266/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/12933/CLionProjects/ESP8266/build/MyProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

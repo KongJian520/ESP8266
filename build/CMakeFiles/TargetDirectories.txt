@@ -1,0 +1,3 @@
+C:/Users/12933/CLionProjects/ESP8266/build/CMakeFiles/MyProject.dir
+C:/Users/12933/CLionProjects/ESP8266/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/12933/CLionProjects/ESP8266/build/CMakeFiles/ZERO_CHECK.dir
